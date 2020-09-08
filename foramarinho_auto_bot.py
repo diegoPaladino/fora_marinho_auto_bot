@@ -11,6 +11,7 @@ t.sleep(0.3)
 
 def job():
     p.write('#FORAMARINHO')
+    t.sleep(4)
     p.hotkey('enter')
     w.Beep(frequency=2500,duration=1000)
 
