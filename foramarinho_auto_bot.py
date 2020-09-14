@@ -16,7 +16,7 @@ def job():
     w.Beep(frequency=2500,duration=1000)
 
 s.every().minute.do(job)
-
+#
 while True:
     s.run_pending()
     t.sleep(1)
