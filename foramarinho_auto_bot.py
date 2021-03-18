@@ -4,8 +4,9 @@ import pyautogui as p
 import time as t
 import schedule as s
 import winsound as w
+from datetime import datetime
 
-p.moveTo(1085,-249)  #<<<<<<<<<<<<<<<<<<<<<<<<<<< point of chat
+p.moveTo(x=1216, y=-240)  #<<<<<<<<<<<<<<<<<<<<<<<<<<< point of chat
 p.click()
 t.sleep(0.3)
 
@@ -14,6 +15,7 @@ def job():
     t.sleep(4)
     p.hotkey('enter')
     w.Beep(frequency=2500,duration=1000)
+    print (datetime.now())
 
 s.every().minute.do(job)
 #
