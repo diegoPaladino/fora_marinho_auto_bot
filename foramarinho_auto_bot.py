@@ -6,18 +6,20 @@ import schedule as s
 import winsound as w
 from datetime import datetime
 
-p.moveTo(x=1216, y=-240)  #<<<<<<<<<<<<<<<<<<<<<<<<<<< point of chat
+texto = "#ForaMarinho #ForaCandil"
+
+p.moveTo(x=1136, y=-276)  #<<<<<<<<<<<<<<<<<<<<<<<<<<< point of chat
 p.click()
 t.sleep(0.3)
 
-p.write('#FORAMARINHO - ISRAEL TEAM - PYTHON TEAM - DATASCIENCETEAM - AUTOMATIONTEAM')
+p.write(texto)
 t.sleep(4)
 p.hotkey('enter')
 w.Beep(frequency=2500,duration=1000)
 print (datetime.now())
 
 def job():
-    p.write('#FORAMARINHO - ISRAEL TEAM - PYTHON TEAM - DATASCIENCETEAM - AUTOMATIONTEAM')
+    p.write(texto)
             
             
     t.sleep(4)
