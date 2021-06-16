@@ -17,7 +17,7 @@ w.Beep(frequency=2500,duration=1000)
 print (datetime.now())
 
 def job():
-    p.write('MANAUARA - Fefito do Amazonas/Norte. HUUUUM VAAAI CARNEIRIIIIIIIIIIIINHO!!! #ForaMarinho')MANAUARA - Fefito do Amazonas/Norte. HUUUUM VAAAI CARNEIRIIIIIIIIIIIINHO!!! #ForaMarinho
+    p.write('MANAUARA - Fefito do Amazonas/Norte. HUUUUM VAAAI CARNEIRIIIIIIIIIIIINHO!!! #ForaMarinho')
             
             
     t.sleep(4)
